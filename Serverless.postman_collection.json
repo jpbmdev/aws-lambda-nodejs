@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "c8f6255f-a190-4eae-8610-d4d8857d0833",
+		"name": "Serverless",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get-todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://f3msorwiz7.execute-api.us-east-1.amazonaws.com/",
+					"protocol": "https",
+					"host": [
+						"f3msorwiz7",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create-todo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"todo\": \"Prueba\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://f3msorwiz7.execute-api.us-east-1.amazonaws.com",
+					"protocol": "https",
+					"host": [
+						"f3msorwiz7",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-todo-id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://f3msorwiz7.execute-api.us-east-1.amazonaws.com/e8eeca2d-6375-4e25-94ec-47ebb7ef8335",
+					"protocol": "https",
+					"host": [
+						"f3msorwiz7",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"e8eeca2d-6375-4e25-94ec-47ebb7ef8335"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update-todo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"completed\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://f3msorwiz7.execute-api.us-east-1.amazonaws.com/e8eeca2d-6375-4e25-94ec-47ebb7ef8335",
+					"protocol": "https",
+					"host": [
+						"f3msorwiz7",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"e8eeca2d-6375-4e25-94ec-47ebb7ef8335"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
